@@ -1,16 +1,10 @@
-# grocery_app
+Grocery Store is a simple shopping app built with Flutter. Users browse fresh produce, add items to a cart and check their order total before paying.
 
-A new Flutter project.
+Features
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Welcome screen that leads into the store
+Product grid with an image, name and price for each item
+Add to cart and remove from cart
+Cart page with a live total
+Shared cart state across screens using Provider (ChangeNotifier and Consumer)
+Google Fonts for typography
